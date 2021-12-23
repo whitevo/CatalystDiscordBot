@@ -14,6 +14,7 @@ const publicVoterEmoji = emojis.PUBLICVOTER;
 const devForHireEmoji = emojis.DEVFORHIRE;
 const designerForHireEmoji = emojis.DESIGNERFORHIRE;
 const proposalMentorEmoji = emojis.PROPOSALMENTOR;
+const challengeTeamEmoji = emojis.CHALLENGETEAM;
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -31,6 +32,7 @@ module.exports = {
             message.react(devForHireEmoji);
             message.react(designerForHireEmoji);
             message.react(proposalMentorEmoji);
+            message.react(challengeTeamEmoji);
         } catch (error) {
             console.error('Something went wrong when sending the message:', error);
         }
