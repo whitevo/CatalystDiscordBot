@@ -4,7 +4,7 @@ const { roles } = require('../resources/roles');
 
 const commandName = 'verifyall';
 const commandDescription = 'Gives every user on the server the verify role.';
-const commandContent = 'Gave every user the verify role.';
+const commandContent = 'Started giving verify role to users, it will take me about 50 users per minute.';
 
 module.exports = {
     data: new SlashCommandBuilder()
