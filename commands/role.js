@@ -8,6 +8,7 @@ const commandDescription = 'Creates the role reaction message on the role reacti
 
 const verifiedEmoji = emojis.VERIFIED;
 const communityAdvisorEmoji = emojis.COMMUNITYADVISOR;
+const vcaEmoji = emojis.VCAROLE;
 const proposerEmoji = emojis.PROPOSER;
 const cohortMemberEmoji = emojis.COHORTMEMBER;
 const publicVoterEmoji = emojis.PUBLICVOTER;
@@ -26,6 +27,7 @@ module.exports = {
             const message = await interaction.fetchReply();
             message.react(verifiedEmoji);
             message.react(communityAdvisorEmoji);
+            message.react(vcaEmoji);
             message.react(proposerEmoji);
             message.react(cohortMemberEmoji);
             message.react(publicVoterEmoji);

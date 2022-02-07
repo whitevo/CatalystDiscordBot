@@ -2,6 +2,7 @@
 const emojis = {
     VERIFIED: '👷',
     COMMUNITYADVISOR: '👩‍🍼',
+    VCAROLE: '🦋',
     PROPOSER: '🚶',
     COHORTMEMBER: '🐄',
     PUBLICVOTER: '🥜',
