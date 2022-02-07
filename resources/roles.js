@@ -14,6 +14,7 @@ const roles = {
 const emojiRoles = {
     '👷': roles.VERIFIEDROLE,
     '👩‍🍼': roles.COMMUNITYADVISORROLE,
+    '🦋': roles.VCAROLE,
     '🚶': roles.PROPOSERROLE,
     '🐄': roles.COHORTMEMBERROLE,
     '🥜': roles.PUBLICVOTERROLE,
