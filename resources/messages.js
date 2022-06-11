@@ -12,10 +12,10 @@ const proposalMentorEmoji = emojis.PROPOSALMENTOR;
 const challengeTeamEmoji = emojis.CHALLENGETEAM;
 
 const messages = {
-REACTIONROLES: `**Choose a role** to recognize your interest by clicking on reactions..
+REACTIONROLES: `**Choose a role** to recognize your interest by clicking on **reactions**..
 
-${communityAdvisorEmoji} **Community Advisor** - Known as CA a role in Catalyst where you assess and score proposals.
-${vcaEmoji} **veteran CA** - You are going to quality check assessments in the current Fund.
+${communityAdvisorEmoji} **Proposal Assessor** - Known as PA a role in Catalyst where you assess and score proposals.
+${vcaEmoji} **veteran PA** - You are going to quality check assessments in the current Fund.
 ${proposerEmoji} **Proposer** - Choose this role if you have proposal active in the current fund.
 ${cohortMemberEmoji} **Cohort member** - Choose this role if you are working on the funded proposal.
 ${publicVoterEmoji} **Public Voter** - Choose this role if share your voting ballots with rationale.
